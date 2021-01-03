@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  background: rgb(180, 45, 45);
+  /* width: 300px; */
+  height: 150px;
+}
+.header2 {
+  background: blue;
+  /* width: 300px; */
+  height: 300px;
+}
+/* .logo {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+} */
+.menu {
+  text-align: center;
+
+  color: whitesmoke;
+  background-color: black;
+  /* display: inline-block; */
+}
+.menu li {
+  display: inline-block;
+}
+.menu li a {
+  color: whitesmoke;
+  text-decoration: none;
+  display: inline-block;
+}
+.hero {
+  background: url("./folcika.jpg");
+  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* height: auto;
+  width: auto; */
+  width: 100%;
+  height: 500px;
+  background-position: center;
+}
+.homepage-text {
+  background-color: blue;
+  height: 300px;
+}
+.SMALL-IMG {
+  background-color: red;
+  height: 300px;
+}
+.foot {
+  background-color: rgb(27, 155, 27);
+  height: 300px;
+}
